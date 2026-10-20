@@ -7,8 +7,8 @@ for (let i = 0; i < tests.length; i++){
 //for....of (cleanest for values)
 for (let test of tests) {
     console.log(test) //value
-} 
-console.log("------");  
+}
+console.log("------");
 
 //forEach (no return value)
 tests.forEach ((test, index) => {
